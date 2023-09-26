@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Facebook Login</title>
+</head>
+<body>
+    <br>
+    <br>
+    <img id="fb" src="fb image.svg" height="110px" width="200px" >
+    <div class="container">
+        
+        <h3>Log in to Facebook</h3>
+        <form id="login-form">
+        
+           
+            <input type="tel" id="usermobno" name="usermobno" placeholder="Mobile Number" oninput="validateMobileNumber(this)">
+            <p id ="error_message" style="color: red; " ></p>
+            <input type="password" id="password" placeholder="Password">
+            <button type="button" id="login-button">Log In</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
